@@ -1,0 +1,153 @@
+body {
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 10px 100px;
+}
+
+.header-links {
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    padding: 50px 100px;
+}
+
+#presentation-section {
+    background-color: #1F2937;
+    display: flex;
+    gap: 20px;
+}
+
+.hero {
+    flex-grow: 1;
+}
+
+.img-placeholder {
+    min-width: 300px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+}
+
+
+#presentation-section h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+a, #presentation-section p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#information-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.card-container {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    width: 150px;
+    text-align: center;
+}
+
+.card-image{
+    height: 150px;
+    width: 150px;
+    border: 2px solid #3882F6;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+#quote-section{
+    background-color: #E5E7EB;
+    padding: 100px 200px;
+}
+
+.quote{
+    font-size: 36px;
+    color:#1F2937;
+    font-weight: 300;
+}
+
+.quote-signature{
+    text-align: end;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.action-time{
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 30px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 50px;
+}
+
+.action-time p{
+    margin:0;
+}
+
+.action-title{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+button{
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 8px;
+    border: none;
+    color: #F9FAF8;
+    font-weight: 600;
+}
+
+.signup-button{
+    border:1px solid #F9FAF8;
+    width: 100px;
+}
+
+
+footer {
+    background-color: #1F2937;
+    color:#F9FAF8;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+}
